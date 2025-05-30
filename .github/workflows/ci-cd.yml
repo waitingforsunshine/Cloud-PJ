@@ -50,7 +50,8 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
     - name: Debug Docker username
-      run: echo "Username is set: ${{ secrets.DOCKER_USERNAME }}"
+      run: |
+        echo "Username is set: ${{ secrets.DOCKER_USERNAME }}"
 
     - name: Build Docker image
       run: |
