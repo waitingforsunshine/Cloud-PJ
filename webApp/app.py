@@ -8,7 +8,6 @@ app = Flask(__name__)
 def hello():
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     return f"""
-    <h1>Hello from Flask!</h1>
     <p>ENV = {os.getenv('FLASK_ENV')}</p>
     <p>Updated at: {now}</p>
     """
