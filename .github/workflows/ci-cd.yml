@@ -25,9 +25,9 @@ jobs:
       run: |
         pip install -r webApp/requirements.txt
 
-    - name: Run basic tests (optional)
+    - name: Run basic test script
       run: |
-        python webApp/app.py --help || true
+        python webApp/test.py
 
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
