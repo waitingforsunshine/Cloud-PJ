@@ -1,7 +1,7 @@
 version: '3'
 services:
   webapp:
-    image: 1059813499/cloudcal:latest
+    image: leisure0213/cloudcal:latest
     ports:
       - "80:8000"
     env_file:
