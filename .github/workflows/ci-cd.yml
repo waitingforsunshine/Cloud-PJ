@@ -75,4 +75,4 @@ jobs:
         username: ${{ secrets.DEPLOY_SERVER_USER }}
         key: ${{ secrets.DEPLOY_SSH_KEY }}
         script: |
-          bash ~/cloudcal-deploy/deploy.sh
+          bash ~/cloud-computing-qi-mpj/cloudcal-deploy/deploy.sh
