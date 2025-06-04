@@ -9,6 +9,7 @@ def hello():
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     return f"""
     <h1>Hello from Flask!</h1>
+    <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker Logo" width="200">
     <p>ENV = {os.getenv('FLASK_ENV')}</p>
     <p>Updated at: {now}</p>
     """
